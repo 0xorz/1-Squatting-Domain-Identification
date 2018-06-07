@@ -363,9 +363,9 @@ def get_squatting_domains_dict_from_dnstwist(domain_name):
     a = DomainFuzz(domain_name)
     a.generate()
 
-    print ("The analyzed domain and tld name is:")
-    print ("Domain", a.domain)
-    print ("TLD", a.tld)
+    # print ("The analyzed domain and tld name is:")
+    # print ("Domain", a.domain)
+    # print ("TLD", a.tld)
 
     squat_dic = collections.defaultdict(list)
     a.generate()
