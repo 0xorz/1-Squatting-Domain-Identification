@@ -30,7 +30,7 @@ Traget: facebook.com
 faceb00k.pw: homograph
 facecook.us:  bits
 facrbook.com.br: typo
-facebook.online: wrongTLD
+facebook.online: wrongtld
 facebook-fan.de: combo
 
 ```
@@ -66,7 +66,7 @@ python3 squatting_scan.py google-com.org
 [google.com, combo]
 
 python3 squatting_scan.py google.tk
-[google.com, wrongTLD]
+[google.com, wrongtld]
 
 python3 squatting_scan.py facecook.com
 [facebook.com, bits]
